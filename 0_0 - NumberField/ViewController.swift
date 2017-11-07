@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
 
-    var numberInput : UITextField!;
-    var returnButton : UIButton!;
+    @objc var numberInput : UITextField!;
+    @objc var returnButton : UIButton!;
 
     var myFloat : Float!;
     
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
 
 
-    func makeNumInput() {
+    @objc func makeNumInput() {
         
         self.numberInput = UITextField(frame: CGRect(x: 20, y: 50, width: 250, height: 40));
         self.numberInput.placeholder = "enter number here";
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     }
     
     
-    func makeReturnBtn() {
+    @objc func makeReturnBtn() {
         
         //Buton Init
         self.returnButton = UIButton(type: UIButtonType.roundedRect);
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         return;
     }
     
-    func pressed(_ sender: UIButton!) {
+    @objc func pressed(_ sender: UIButton!) {
 
         //return keyboard (assume it's up :)  )
         self.view.endEditing(true);
