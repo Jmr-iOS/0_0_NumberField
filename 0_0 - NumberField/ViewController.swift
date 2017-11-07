@@ -36,10 +36,10 @@ class ViewController: UIViewController {
 
     func makeNumInput() {
         
-        self.numberInput = UITextField(frame: CGRectMake(20, 50, 250, 40));
+        self.numberInput = UITextField(frame: CGRect(x: 20, y: 50, width: 250, height: 40));
         self.numberInput.placeholder = "enter number here";
         
-        self.numberInput.keyboardType = .DecimalPad;                                        /* The Key for Numeric!                 */
+        self.numberInput.keyboardType = .decimalPad;                                        /* The Key for Numeric!                 */
         
         
         self.view.addSubview(numberInput);
@@ -51,14 +51,14 @@ class ViewController: UIViewController {
     func makeReturnBtn() {
         
         //Buton Init
-        self.returnButton = UIButton(type: UIButtonType.RoundedRect);
+        self.returnButton = UIButton(type: UIButtonType.roundedRect);
         
-        self.returnButton.setTitle("Return",      forState: UIControlState.Normal);
+        self.returnButton.setTitle("Return",      for: UIControlState());
         self.returnButton.sizeToFit();
-        self.returnButton.center = CGPointMake(45, 100);
+        self.returnButton.center = CGPoint(x: 45, y: 100);
 
         //actions
-        self.returnButton.addTarget(self, action: "pressed:", forControlEvents:  .TouchUpInside);
+        self.returnButton.addTarget(self, action: #selector(ViewController.pressed(_:)), for:  .touchUpInside);
         
         //add
         self.view.addSubview(returnButton);
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         return;
     }
     
-    func pressed(sender: UIButton!) {
+    func pressed(_ sender: UIButton!) {
 
         //return keyboard (assume it's up :)  )
         self.view.endEditing(true);
