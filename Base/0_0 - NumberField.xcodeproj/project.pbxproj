@@ -3,21 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4B91BF4D7950024005F /* AppDelegate.swift */; };
-		D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4BB1BF4D7950024005F /* ViewController.swift */; };
-		D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039B4C01BF4D7950024005F /* Assets.xcassets */; };
+		D0055136201CFB2A00D8FD1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0055134201CFB2A00D8FD1B /* AppDelegate.swift */; };
+		D0055137201CFB2A00D8FD1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0055135201CFB2A00D8FD1B /* ViewController.swift */; };
+		D005513C201CFB3F00D8FD1B /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D0055139201CFB3F00D8FD1B /* Base.lproj */; };
+		D005513E201CFB3F00D8FD1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D005513B201CFB3F00D8FD1B /* Assets.xcassets */; };
+		D0055142201CFB6A00D8FD1B /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D005513F201CFB6A00D8FD1B /* Empty.storyboard */; };
+		D0055143201CFB6A00D8FD1B /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0055140201CFB6A00D8FD1B /* NewClass.swift */; };
+		D0055144201CFB6A00D8FD1B /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0055141201CFB6A00D8FD1B /* Stdcomments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0055134201CFB2A00D8FD1B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D0055135201CFB2A00D8FD1B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D0055139201CFB3F00D8FD1B /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		D005513A201CFB3F00D8FD1B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D005513B201CFB3F00D8FD1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D005513F201CFB6A00D8FD1B /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Empty.storyboard; path = ../../../../../Ref/iOS/Base/Empty.storyboard; sourceTree = "<group>"; };
+		D0055140201CFB6A00D8FD1B /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = ../../../../../Ref/iOS/Base/NewClass.swift; sourceTree = "<group>"; };
+		D0055141201CFB6A00D8FD1B /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = ../../../../../Ref/iOS/Base/Stdcomments.swift; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - NumberField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - NumberField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D039B4B91BF4D7950024005F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D039B4BB1BF4D7950024005F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D039B4C01BF4D7950024005F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D039B4C51BF4D7950024005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,11 +39,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0055138201CFB3300D8FD1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D005513B201CFB3F00D8FD1B /* Assets.xcassets */,
+				D0055139201CFB3F00D8FD1B /* Base.lproj */,
+				D005513A201CFB3F00D8FD1B /* Info.plist */,
+				D005513F201CFB6A00D8FD1B /* Empty.storyboard */,
+				D0055140201CFB6A00D8FD1B /* NewClass.swift */,
+				D0055141201CFB6A00D8FD1B /* Stdcomments.swift */,
+				D039B4B71BF4D7950024005F /* Products */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		D039B4AD1BF4D7950024005F = {
 			isa = PBXGroup;
 			children = (
-				D039B4B81BF4D7950024005F /* 0_0 - NumberField */,
-				D039B4B71BF4D7950024005F /* Products */,
+				D0055138201CFB3300D8FD1B /* Base */,
+				D0055134201CFB2A00D8FD1B /* AppDelegate.swift */,
+				D0055135201CFB2A00D8FD1B /* ViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,17 +68,6 @@
 				D039B4B61BF4D7950024005F /* 0_0 - NumberField.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D039B4B81BF4D7950024005F /* 0_0 - NumberField */ = {
-			isa = PBXGroup;
-			children = (
-				D039B4B91BF4D7950024005F /* AppDelegate.swift */,
-				D039B4BB1BF4D7950024005F /* ViewController.swift */,
-				D039B4C01BF4D7950024005F /* Assets.xcassets */,
-				D039B4C51BF4D7950024005F /* Info.plist */,
-			);
-			path = "0_0 - NumberField";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +108,7 @@
 				};
 			};
 			buildConfigurationList = D039B4B11BF4D7950024005F /* Build configuration list for PBXProject "0_0 - NumberField" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -118,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */,
+				D0055142201CFB6A00D8FD1B /* Empty.storyboard in Resources */,
+				D005513E201CFB3F00D8FD1B /* Assets.xcassets in Resources */,
+				D005513C201CFB3F00D8FD1B /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */,
-				D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */,
+				D0055143201CFB6A00D8FD1B /* NewClass.swift in Sources */,
+				D0055144201CFB6A00D8FD1B /* Stdcomments.swift in Sources */,
+				D0055136201CFB2A00D8FD1B /* AppDelegate.swift in Sources */,
+				D0055137201CFB2A00D8FD1B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +256,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - NumberField/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vioteq.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.0-0-NumberField";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -253,9 +270,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - NumberField/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vioteq.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.0-0-NumberField";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
